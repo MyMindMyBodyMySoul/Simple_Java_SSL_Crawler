@@ -18,7 +18,7 @@ public class Result {
     
     @Override
     public String toString(){
-        return this.urlString +" Cipher Suite used: "+this.cipherSuite+ "\n";
+        return this.urlString +" "+this.cipherSuite+ "\n";
     }
     
 }
