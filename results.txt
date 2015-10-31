@@ -1,0 +1,300 @@
+Error: https://www.yahoo.co.jp, java.net.ConnectException: Connection timed out: connect
+Error: https://www.qq.com, javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.qq.com found.
+Error: https://www.sina.com.cn, javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.sina.com.cn found.
+Error: https://www.163.com, javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No name matching www.163.com found
+Error: https://www.rapidshare.com, java.net.ConnectException: Connection timed out: connect
+Error: https://www.fc2.com, java.net.ConnectException: Connection refused: connect
+Error: https://www.livejasmin.com, java.net.ConnectException: Connection timed out: connect
+Error: https://www.go.com, java.net.ConnectException: Connection refused: connect
+Error: https://www.sohu.com, javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.sohu.com found.
+Error: https://www.1e100.net, java.net.UnknownHostException: www.1e100.net
+Error: https://www.doubleclick.com, java.net.UnknownHostException: www.doubleclick.com
+Error: https://www.photobucket.com, java.net.ConnectException: Connection refused: connect
+Error: https://www.bp.blogspot.com, java.net.UnknownHostException: www.bp.blogspot.com
+Error: https://www.conduit.com, javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+Error: https://www.ask.com, javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.ask.com found.
+Error: https://www.youku.com, java.net.ConnectException: Connection refused: connect
+Error: https://www.espn.go.com, javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.espn.go.com found.
+Error: https://www.cnet.com, javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.cnet.com found.
+Error: https://www.cnn.com, javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.cnn.com found.
+Error: https://www.about.com, java.net.ConnectException: Connection refused: connect
+Error: https://www.imageshack.us, javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.imageshack.us found.
+Error: https://www.xvideos.com, java.net.ConnectException: Connection timed out: connect
+Error: https://www.tube8.com, java.net.ConnectException: Connection timed out: connect
+Error: https://www.megavideo.com, java.net.UnknownHostException: www.megavideo.com
+Error: https://www.megaupload.com, java.net.UnknownHostException: www.megaupload.com
+Error: https://www.soso.com, javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.soso.com found.
+Error: https://www.uol.com.br, java.net.ConnectException: Connection timed out: connect
+Error: https://www.ameblo.jp, java.net.ConnectException: Connection timed out: connect
+Error: https://www.livedoor.com, java.net.ConnectException: Connection refused: connect
+Error: https://www.tianya.cn, java.net.ConnectException: Connection timed out: connect
+Error: https://www.mixi.jp, javax.net.ssl.SSLProtocolException: handshake alert:  unrecognized_name
+Error: https://www.tudou.com, java.net.ConnectException: Connection refused: connect
+Error: https://www.renren.com, java.net.SocketException: Connection reset
+Error: https://www.thepiratebay.org, java.net.ConnectException: Connection refused: connect
+Error: https://www.rediff.com, javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.rediff.com found.
+Error: https://www.hotfile.com, javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.hotfile.com found.
+Error: https://www.alibaba.com, java.net.ConnectException: Connection timed out: connect
+Error: https://www.globo.com, java.net.SocketException: Connection reset
+Error: https://www.goo.ne.jp, java.net.ConnectException: Connection timed out: connect
+Error: https://www.ifeng.com, javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.ifeng.com found.
+Error: https://www.clicksor.com, java.net.UnknownHostException: www.clicksor.com
+Error: https://www.soufun.com, java.net.ConnectException: Connection refused: connect
+Error: https://www.adultfriendfinder.com, java.net.UnknownHostException: www.adultfriendfinder.com
+Error: https://www.yieldmanager.com, javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.yieldmanager.com found.
+Error: https://www.cnzz.com, java.net.ConnectException: Connection timed out: connect
+Error: https://www.optmd.com, java.net.ConnectException: Connection refused: connect
+Error: https://www.weather.com, javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.weather.com found.
+Error: https://www.fastbrowsersearch.com, java.net.ConnectException: Connection refused: connect
+Error: https://www.chinaz.com, javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No name matching www.chinaz.com found
+Error: https://www.nasza-klasa.pl, javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.nasza-klasa.pl found.
+Error: https://www.xunlei.com, java.net.SocketException: Connection reset
+Error: https://www.xtendmedia.com, java.net.ConnectException: Connection timed out: connect
+Error: https://www.xnxx.com, java.net.ConnectException: Connection timed out: connect
+Error: https://www.download.com, java.net.ConnectException: Connection timed out: connect
+Error: https://www.linkbucks.com, java.net.UnknownHostException: www.linkbucks.com
+Error: https://www.nicovideo.jp, java.net.ConnectException: Connection timed out: connect
+Error: https://www.wretch.cc, java.net.ConnectException: Connection timed out: connect
+Error: https://www.tinypic.com, java.net.ConnectException: Connection refused: connect
+Error: https://www.mywebsearch.com, java.net.UnknownHostException: www.mywebsearch.com
+Error: https://www.bestbuy.com, javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.bestbuy.com found.
+Error: https://www.mininova.org, java.net.ConnectException: Connection refused: connect
+Error: https://www.hulu.com, javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.hulu.com found.
+Error: https://www.netlog.com, javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.netlog.com found.
+Error: https://www.megaclick.com, java.net.UnknownHostException: www.megaclick.com
+Error: https://www.reference.com, javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.reference.com found.
+Error: https://www.target.com, javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.target.com found.
+Error: https://www.gameztar.com, java.net.ConnectException: Connection timed out: connect
+Error: https://www.indiatimes.com, javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.indiatimes.com found.
+Error: https://www.huffingtonpost.com, javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.huffingtonpost.com found.
+Error: https://www.comcast.net, javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.comcast.net found.
+Error: https://www.isohunt.com, java.net.SocketException: Connection reset
+Error: https://www.maktoob.com, java.net.ConnectException: Connection timed out: connect
+Error: https://www.zedo.com, java.net.UnknownHostException: www.zedo.com
+Error: https://www.cricinfo.com, javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.cricinfo.com found.
+Error: https://www.imagevenue.com, java.net.ConnectException: Connection refused: connect
+Error: https://www.51.la, java.net.ConnectException: Connection refused: connect
+Error: https://www.metroflog.com, java.net.ConnectException: Connection timed out: connect
+Error: https://www.friendster.com, java.net.ConnectException: Connection timed out: connect
+Error: https://www.ku6.com, javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.ku6.com found.
+Error: https://www.mop.com, java.net.ConnectException: Connection timed out: connect
+Error: https://www.allegro.pl, java.net.ConnectException: Connection refused: connect
+Error: https://www.126.com, javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.126.com found.
+Error: https://www.56.com, javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No name matching www.56.com found
+Error: https://www.xinhuanet.com, java.net.ConnectException: Connection refused: connect
+Error: https://www.zol.com.cn, java.net.ConnectException: Connection timed out: connect
+Error: https://www.angege.com, java.net.ConnectException: Connection refused: connect
+Error: https://www.narod.ru, java.net.ConnectException: Connection timed out: connect
+Error: https://www.libero.it, java.net.ConnectException: Connection refused: connect
+Error: https://www.pconline.com.cn, java.net.ConnectException: Connection refused: connect
+Error: https://www.ynet.com, javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No name matching www.ynet.com found
+Error: https://www.keezmovies.com, javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.keezmovies.com found.
+Error: https://www.naver.com, javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.naver.com found.
+Error: https://www.tribalfusion.com, java.net.UnknownHostException: www.tribalfusion.com
+Error: https://www.guardian.co.uk, javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.guardian.co.uk found.
+Error: https://www.biglobe.ne.jp, java.net.ConnectException: Connection timed out: connect
+Error: https://www.vnexpress.net, java.net.ConnectException: Connection timed out: connect
+Error: https://www.foxnews.com, javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.foxnews.com found.
+Error: https://www.tom.com, javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No name matching www.tom.com found
+Error: https://www.statcounter.com, java.net.UnknownHostException: www.statcounter.com
+Error: https://www.wp.pl, java.net.ConnectException: Connection refused: connect
+Error: https://www.bild.de, javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.bild.de found.
+Error: https://www.ign.com, javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.ign.com found.
+Error: https://www.studiverzeichnis.com, java.net.ConnectException: Connection timed out: connect
+Error: https://www.csdn.net, java.net.ConnectException: Connection timed out: connect
+Error: https://www.streamate.com, java.net.UnknownHostException: www.streamate.com
+Error: https://www.ig.com.br, javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No name matching www.ig.com.br found
+Error: https://www.hyves.nl, javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.hyves.nl found.
+Error: https://www.homeway.com.cn, java.net.ConnectException: Connection refused: connect
+Error: https://www.dailymail.co.uk, javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.dailymail.co.uk found.
+Error: https://www.eastmoney.com, javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No name matching www.eastmoney.com found
+Error: https://www.mybrowserbar.com, javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.mybrowserbar.com found.
+Error: https://www.ucoz.ru, java.net.ConnectException: Connection refused: connect
+Error: https://www.kooora.com, javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.kooora.com found.
+Error: https://www.sakura.ne.jp, java.net.ConnectException: Connection timed out: connect
+Error: https://www.spankwire.com, java.net.ConnectException: Connection timed out: connect
+Error: https://www.torrents.ru, java.net.UnknownHostException: www.torrents.ru
+Error: https://www.squidoo.com, javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.squidoo.com found.
+Error: https://www.farmville.com, javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+Error: https://www.geocities.jp, java.net.ConnectException: Connection timed out: connect
+Error: https://www.telegraph.co.uk, javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.telegraph.co.uk found.
+Error: https://www.yourfilehost.com, java.net.SocketException: Connection reset
+Error: https://www.multiply.com, java.net.ConnectException: Connection timed out: connect
+Error: https://www.youdao.com, javax.net.ssl.SSLHandshakeException: Received fatal alert: handshake_failure
+Error: https://www.gougou.com, java.net.ConnectException: Connection timed out: connect
+Error: https://www.nba.com, javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.nba.com found.
+Error: https://www.hubpages.com, javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.hubpages.com found.
+Error: https://www.megaporn.com, java.net.UnknownHostException: www.megaporn.com
+Error: https://www.leboncoin.fr, javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+Error: https://www.passport.net, java.net.ConnectException: Connection refused: connect
+Error: https://www.brothersoft.com, java.net.ConnectException: Connection timed out: connect
+Error: https://www.reuters.com, javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.reuters.com found.
+Error: https://www.adultadworld.com, javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No name matching www.adultadworld.com found
+Error: https://www.people.com.cn, javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.people.com.cn found.
+Error: https://www.58.com, javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No name matching www.58.com found
+Error: https://www.in.com, javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.in.com found.
+Error: https://www.zshare.net, java.net.ConnectException: Connection timed out: connect
+Error: https://www.marca.com, java.net.ConnectException: Connection timed out: connect
+Error: https://www.alimama.com, javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+Error: https://www.wsj.com, javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.wsj.com found.
+Error: https://www.seesaa.net, javax.net.ssl.SSLProtocolException: handshake alert:  unrecognized_name
+Error: https://www.justin.tv, java.net.ConnectException: Connection timed out: connect
+Error: https://www.softonic.com, java.net.ConnectException: Connection timed out: connect
+Error: https://www.ocn.ne.jp, java.net.ConnectException: Connection timed out: connect
+Error: https://www.softpedia.com, java.net.ConnectException: Connection refused: connect
+Error: https://www.shufuni.com, javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.shufuni.com found.
+Error: https://www.uploading.com, javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.uploading.com found.
+Error: https://www.foxsports.com, javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.foxsports.com found.
+Error: https://www.daum.net, java.net.ConnectException: Connection refused: connect
+Error: https://www.nowdownloadall.com, java.net.SocketException: Connection reset
+Error: https://www.gamefaqs.com, java.net.ConnectException: Connection refused: connect
+Error: https://www.focus.cn, javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.focus.cn found.
+Error: https://www.chip.de, javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.chip.de found.
+Error: https://www.ganji.com, java.net.ConnectException: Connection refused: connect
+Error: https://www.blogcatalog.com, java.net.UnknownHostException: www.blogcatalog.com
+Error: https://www.commentcamarche.net, javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.commentcamarche.net found.
+Error: https://www.amazonaws.com, java.net.ConnectException: Connection refused: connect
+Error: https://www.travian.ae, javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+Error: https://www.imagebam.com, java.net.ConnectException: Connection refused: connect
+Error: https://www.rr.com, javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+Error: https://www.babylon.com, java.net.ConnectException: Connection timed out: connect
+https://www.google.com Cipher Suite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.facebook.com Cipher Suite used: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+https://www.yahoo.com Cipher Suite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.youtube.com Cipher Suite used: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+https://www.live.com Cipher Suite used: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256
+https://www.wikipedia.org Cipher Suite used: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+https://www.blogger.com Cipher Suite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.baidu.com Cipher Suite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.msn.com Cipher Suite used: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256
+https://www.myspace.com Cipher Suite used: SSL_RSA_WITH_RC4_128_MD5
+https://www.twitter.com Cipher Suite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.amazon.com Cipher Suite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.microsoft.com Cipher Suite used: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256
+https://www.wordpress.com Cipher Suite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.ebay.com Cipher Suite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.bing.com Cipher Suite used: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256
+https://www.taobao.com Cipher Suite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.yandex.ru Cipher Suite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.mail.ru Cipher Suite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.flickr.com Cipher Suite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.vkontakte.ru Cipher Suite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.linkedin.com Cipher Suite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.craigslist.org Cipher Suite used: TLS_RSA_WITH_AES_128_CBC_SHA256
+https://www.aol.com Cipher Suite used: TLS_RSA_WITH_AES_128_CBC_SHA
+https://www.imdb.com Cipher Suite used: SSL_RSA_WITH_RC4_128_MD5
+https://www.bbc.co.uk Cipher Suite used: TLS_RSA_WITH_AES_128_CBC_SHA
+https://www.orkut.com.br Cipher Suite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.pornhub.com Cipher Suite used: TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA
+https://www.apple.com Cipher Suite used: TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA
+https://www.hi5.com Cipher Suite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.kaixin001.com Cipher Suite used: TLS_RSA_WITH_AES_128_CBC_SHA
+https://www.youporn.com Cipher Suite used: TLS_RSA_WITH_AES_128_CBC_SHA
+https://www.orkut.com Cipher Suite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.mediafire.com Cipher Suite used: TLS_RSA_WITH_AES_128_CBC_SHA256
+https://www.ebay.de Cipher Suite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.adobe.com Cipher Suite used: TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA
+https://www.rakuten.co.jp Cipher Suite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.orkut.co.in Cipher Suite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.livejournal.com Cipher Suite used: TLS_DHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.4shared.com Cipher Suite used: TLS_DHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.redtube.com Cipher Suite used: TLS_RSA_WITH_AES_128_CBC_SHA256
+https://www.files.wordpress.com Cipher Suite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.dailymotion.com Cipher Suite used: SSL_RSA_WITH_RC4_128_SHA
+https://www.xhamster.com Cipher Suite used: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256
+https://www.ebay.co.uk Cipher Suite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.amazon.de Cipher Suite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.odnoklassniki.ru Cipher Suite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.deviantart.com Cipher Suite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.digg.com Cipher Suite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.nytimes.com Cipher Suite used: SSL_RSA_WITH_RC4_128_MD5
+https://www.zynga.com Cipher Suite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.paypal.com Cipher Suite used: TLS_RSA_WITH_AES_128_GCM_SHA256
+https://www.walmart.com Cipher Suite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.rambler.ru Cipher Suite used: TLS_RSA_WITH_AES_128_CBC_SHA
+https://www.filestube.com Cipher Suite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.amazon.co.jp Cipher Suite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.taringa.net Cipher Suite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.tagged.com Cipher Suite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.amazon.co.uk Cipher Suite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.answers.com Cipher Suite used: TLS_DHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.ezinearticles.com Cipher Suite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.ning.com Cipher Suite used: SSL_RSA_WITH_RC4_128_SHA
+https://www.spiegel.de Cipher Suite used: TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA
+https://www.sogou.com Cipher Suite used: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256
+https://www.dell.com Cipher Suite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.skyrock.com Cipher Suite used: TLS_RSA_WITH_AES_128_GCM_SHA256
+https://www.mozilla.com Cipher Suite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.free.fr Cipher Suite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.godaddy.com Cipher Suite used: TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA
+https://www.depositfiles.com Cipher Suite used: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256
+https://www.partypoker.com Cipher Suite used: SSL_DHE_RSA_WITH_3DES_EDE_CBC_SHA
+https://www.terra.com.br Cipher Suite used: TLS_RSA_WITH_AES_128_CBC_SHA256
+https://www.hao123.com Cipher Suite used: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA
+https://www.ehow.com Cipher Suite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.torrentz.com Cipher Suite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.metacafe.com Cipher Suite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.sourceforge.net Cipher Suite used: TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA
+https://www.2ch.net Cipher Suite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.wikimedia.org Cipher Suite used: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+https://www.orange.fr Cipher Suite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.douban.com Cipher Suite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.youjizz.com Cipher Suite used: SSL_DHE_RSA_WITH_3DES_EDE_CBC_SHA
+https://www.netflix.com Cipher Suite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.onet.pl Cipher Suite used: TLS_ECDHE_RSA_WITH_RC4_128_SHA
+https://www.twitpic.com Cipher Suite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.vk.com Cipher Suite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.nifty.com Cipher Suite used: SSL_RSA_WITH_RC4_128_SHA
+https://www.gmx.net Cipher Suite used: SSL_DHE_RSA_WITH_3DES_EDE_CBC_SHA
+https://www.awempire.com Cipher Suite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.gamespot.com Cipher Suite used: SSL_RSA_WITH_RC4_128_MD5
+https://www.typepad.com Cipher Suite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.hp.com Cipher Suite used: SSL_RSA_WITH_RC4_128_SHA
+https://www.bankofamerica.com Cipher Suite used: TLS_RSA_WITH_AES_128_CBC_SHA
+https://www.web.de Cipher Suite used: SSL_DHE_RSA_WITH_3DES_EDE_CBC_SHA
+https://www.archive.org Cipher Suite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.badoo.com Cipher Suite used: TLS_DHE_RSA_WITH_AES_128_CBC_SHA
+https://www.blogfa.com Cipher Suite used: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+https://www.digitalpoint.com Cipher Suite used: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+https://www.tumblr.com Cipher Suite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.aweber.com Cipher Suite used: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256
+https://www.bit.ly Cipher Suite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.hatena.ne.jp Cipher Suite used: TLS_RSA_WITH_AES_128_CBC_SHA
+https://www.domaintools.com Cipher Suite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.avg.com Cipher Suite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.wikia.com Cipher Suite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.ameba.jp Cipher Suite used: SSL_RSA_WITH_RC4_128_SHA
+https://www.verycd.com Cipher Suite used: TLS_RSA_WITH_AES_128_CBC_SHA256
+https://www.pogo.com Cipher Suite used: SSL_RSA_WITH_RC4_128_MD5
+https://www.alipay.com Cipher Suite used: TLS_RSA_WITH_AES_128_CBC_SHA
+https://www.scribd.com Cipher Suite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.istockphoto.com Cipher Suite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.stumbleupon.com Cipher Suite used: TLS_RSA_WITH_AES_128_CBC_SHA
+https://www.newegg.com Cipher Suite used: SSL_RSA_WITH_3DES_EDE_CBC_SHA
+https://www.xing.com Cipher Suite used: TLS_RSA_WITH_AES_128_CBC_SHA256
+https://www.leo.org Cipher Suite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.infoseek.co.jp Cipher Suite used: TLS_RSA_WITH_AES_128_CBC_SHA
+https://www.seznam.cz Cipher Suite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.ups.com Cipher Suite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.fotolog.net Cipher Suite used: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+https://www.secureserver.net Cipher Suite used: SSL_RSA_WITH_RC4_128_SHA
+https://www.usps.com Cipher Suite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.veoh.com Cipher Suite used: TLS_RSA_WITH_AES_128_CBC_SHA
+https://www.nfl.com Cipher Suite used: TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA
+https://www.ebay.it Cipher Suite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.skype.com Cipher Suite used: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256
+https://www.liveinternet.ru Cipher Suite used: TLS_RSA_WITH_AES_128_CBC_SHA
+https://www.thefreedictionary.com Cipher Suite used: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256
+https://www.empflix.com Cipher Suite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.last.fm Cipher Suite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.chase.com Cipher Suite used: TLS_RSA_WITH_AES_128_GCM_SHA256
+https://www.opendns.com Cipher Suite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.tnaflix.com Cipher Suite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.verizon.net Cipher Suite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.t-online.de Cipher Suite used: TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA
+https://www.addthis.com Cipher Suite used: SSL_RSA_WITH_RC4_128_SHA
+https://www.ziddu.com Cipher Suite used: TLS_RSA_WITH_AES_128_CBC_SHA
+https://www.mapquest.com Cipher Suite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.mozilla.org Cipher Suite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.wordpress.org Cipher Suite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.att.com Cipher Suite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
