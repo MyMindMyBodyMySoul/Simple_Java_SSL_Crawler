@@ -50,7 +50,7 @@ public class SWP2CrawlerTest {
     private static SWP2CrawlerTest THEINSTANCE;
     private static Worker[] threadList = new Worker[10];
 
-    private static final int URLLIMIT = 100; /* Limit Crawler to 500 URLs
+    private static final int URLLIMIT = 500; /* Limit Crawler to 500 URLs
      To unlimit see to the method normalizeURLS
      and replace for loop with a whileloop there*/
 

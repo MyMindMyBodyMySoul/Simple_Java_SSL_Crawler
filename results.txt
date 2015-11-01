@@ -1,90 +1,499 @@
-https://www.youtube.com Cipersuite used: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
-https://www.facebook.com Cipersuite used: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
-https://www.yahoo.com Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
 https://www.msn.com Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256
+https://www.facebook.com Cipersuite used: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+https://www.blogger.com Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.youtube.com Cipersuite used: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
 https://www.wikipedia.org Cipersuite used: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
-https://www.live.com Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256
-https://www.google.com Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.yahoo.com Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
 https://www.qq.com Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.qq.com found.
-https://www.sina.com.cn Error: java.net.SocketException: Connection reset
+https://www.sina.com.cn Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.sina.com.cn found.
+https://www.google.com Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
 https://www.microsoft.com Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256
-https://www.wordpress.com Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
 https://www.twitter.com Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.wordpress.com Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.live.com Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256
 https://www.ebay.com Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.myspace.com Cipersuite used: SSL_RSA_WITH_RC4_128_MD5
 https://www.163.com Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No name matching www.163.com found
 https://www.bing.com Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256
-https://www.blogger.com Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
-https://www.myspace.com Cipersuite used: SSL_RSA_WITH_RC4_128_MD5
-https://www.yandex.ru Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
-https://www.flickr.com Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
 https://www.amazon.com Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.flickr.com Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.yandex.ru Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.baidu.com Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
 https://www.mail.ru Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
 https://www.vkontakte.ru Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
 https://www.linkedin.com Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
-https://www.baidu.com Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
-https://www.aol.com Cipersuite used: TLS_RSA_WITH_AES_128_CBC_SHA
 https://www.imdb.com Cipersuite used: TLS_RSA_WITH_AES_128_CBC_SHA
-https://www.doubleclick.com Error: java.net.UnknownHostException: www.doubleclick.com
 https://www.1e100.net Error: java.net.UnknownHostException: www.1e100.net
-https://www.craigslist.org Cipersuite used: TLS_RSA_WITH_AES_128_CBC_SHA256
+https://www.doubleclick.com Error: java.net.UnknownHostException: www.doubleclick.com
+https://www.aol.com Cipersuite used: TLS_RSA_WITH_AES_128_CBC_SHA
 https://www.bbc.co.uk Cipersuite used: TLS_RSA_WITH_AES_128_CBC_SHA
-https://www.pornhub.com Cipersuite used: TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA
 https://www.orkut.com.br Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.craigslist.org Cipersuite used: TLS_RSA_WITH_AES_128_CBC_SHA256
 https://www.bp.blogspot.com Error: java.net.UnknownHostException: www.bp.blogspot.com
 https://www.apple.com Cipersuite used: TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA
+https://www.pornhub.com Cipersuite used: TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA
 https://www.fc2.com Error: java.net.ConnectException: Connection refused: connect
+https://www.sohu.com Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.sohu.com found.
 https://www.conduit.com Error: javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
-https://www.hi5.com Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
 https://www.ask.com Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.ask.com found.
-https://www.go.com Error: java.net.ConnectException: Connection refused: connect
 https://www.youporn.com Cipersuite used: TLS_RSA_WITH_AES_128_CBC_SHA
+https://www.go.com Error: java.net.ConnectException: Connection refused: connect
+https://www.hi5.com Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
 https://www.taobao.com Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
-https://www.orkut.com Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
-https://www.photobucket.com Error: java.net.ConnectException: Connection refused: connect
 https://www.cnet.com Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.cnet.com found.
+https://www.orkut.com Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
 https://www.cnn.com Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.cnn.com found.
+https://www.photobucket.com Error: java.net.ConnectException: Connection refused: connect
 https://www.ebay.de Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
-https://www.adobe.com Cipersuite used: TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA
 https://www.espn.go.com Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.espn.go.com found.
+https://www.adobe.com Cipersuite used: TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA
 https://www.rakuten.co.jp Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
 https://www.mediafire.com Cipersuite used: TLS_RSA_WITH_AES_128_CBC_SHA256
-https://www.sohu.com Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.sohu.com found.
 https://www.megavideo.com Error: java.net.UnknownHostException: www.megavideo.com
-https://www.about.com Error: java.net.ConnectException: Connection refused: connect
-https://www.megaupload.com Error: java.net.UnknownHostException: www.megaupload.com
 https://www.orkut.co.in Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.megaupload.com Error: java.net.UnknownHostException: www.megaupload.com
+https://www.about.com Error: java.net.ConnectException: Connection refused: connect
 https://www.imageshack.us Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.imageshack.us found.
 https://www.kaixin001.com Cipersuite used: TLS_RSA_WITH_AES_128_CBC_SHA
 https://www.livejournal.com Cipersuite used: TLS_DHE_RSA_WITH_AES_128_GCM_SHA256
-https://www.livedoor.com Error: java.net.ConnectException: Connection refused: connect
+https://www.soso.com Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.soso.com found.
 https://www.4shared.com Cipersuite used: TLS_DHE_RSA_WITH_AES_128_GCM_SHA256
 https://www.redtube.com Cipersuite used: TLS_RSA_WITH_AES_128_CBC_SHA256
+https://www.livedoor.com Error: java.net.ConnectException: Connection refused: connect
 https://www.files.wordpress.com Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
-https://www.yahoo.co.jp Error: java.net.ConnectException: Connection timed out: connect
-https://www.rapidshare.com Error: java.net.ConnectException: Connection timed out: connect
-https://www.youku.com Error: java.net.ConnectException: Connection timed out: connect
-https://www.livejasmin.com Error: java.net.ConnectException: Connection timed out: connect
-https://www.dailymotion.com Cipersuite used: SSL_RSA_WITH_RC4_128_SHA
 https://www.mixi.jp Error: javax.net.ssl.SSLProtocolException: handshake alert:  unrecognized_name
+https://www.youku.com Error: java.net.ConnectException: Connection refused: connect
+https://www.dailymotion.com Cipersuite used: SSL_RSA_WITH_RC4_128_SHA
 https://www.xhamster.com Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256
-https://www.ebay.co.uk Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
 https://www.renren.com Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.renren.com found.
+https://www.ebay.co.uk Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
 https://www.amazon.de Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
 https://www.odnoklassniki.ru Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.tudou.com Error: java.net.ConnectException: Connection refused: connect
 https://www.rediff.com Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.rediff.com found.
+https://www.thepiratebay.org Error: java.net.ConnectException: Connection refused: connect
 https://www.deviantart.com Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
 https://www.hotfile.com Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.hotfile.com found.
 https://www.digg.com Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
 https://www.nytimes.com Cipersuite used: SSL_RSA_WITH_RC4_128_MD5
-https://www.thepiratebay.org Error: java.net.ConnectException: Connection refused: connect
 https://www.globo.com Error: java.net.SocketException: Connection reset
-https://www.tudou.com Error: java.net.ConnectException: Connection refused: connect
-https://www.soso.com Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.soso.com found.
+https://www.yahoo.co.jp Error: java.net.ConnectException: Connection timed out: connect
+https://www.rapidshare.com Error: java.net.ConnectException: Connection timed out: connect
+https://www.livejasmin.com Error: java.net.ConnectException: Connection timed out: connect
 https://www.clicksor.com Error: java.net.UnknownHostException: www.clicksor.com
 https://www.ifeng.com Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.ifeng.com found.
 https://www.adultfriendfinder.com Error: java.net.UnknownHostException: www.adultfriendfinder.com
-https://www.xvideos.com Error: java.net.ConnectException: Connection timed out: connect
 https://www.paypal.com Cipersuite used: TLS_RSA_WITH_AES_128_GCM_SHA256
-https://www.zynga.com Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
 https://www.walmart.com Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.zynga.com Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.yieldmanager.com Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.yieldmanager.com found.
+https://www.rambler.ru Cipersuite used: TLS_RSA_WITH_AES_128_CBC_SHA
+https://www.filestube.com Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.amazon.co.jp Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
 https://www.tube8.com Error: java.net.ConnectException: Connection timed out: connect
+https://www.soufun.com Error: java.net.ConnectException: Connection refused: connect
+https://www.xvideos.com Error: java.net.ConnectException: Connection timed out: connect
+https://www.weather.com Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.weather.com found.
+https://www.nasza-klasa.pl Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.nasza-klasa.pl found.
+https://www.chinaz.com Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No name matching www.chinaz.com found
+https://www.optmd.com Error: java.net.ConnectException: Connection refused: connect
+https://www.ameblo.jp Error: java.net.ConnectException: Connection timed out: connect
+https://www.taringa.net Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.uol.com.br Error: java.net.ConnectException: Connection timed out: connect
+https://www.amazon.co.uk Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.tagged.com Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.fastbrowsersearch.com Error: java.net.ConnectException: Connection refused: connect
+https://www.ezinearticles.com Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.answers.com Cipersuite used: TLS_DHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.xunlei.com Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA
+https://www.spiegel.de Cipersuite used: TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA
+https://www.linkbucks.com Error: java.net.UnknownHostException: www.linkbucks.com
+https://www.dell.com Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.ning.com Cipersuite used: SSL_RSA_WITH_RC4_128_SHA
+https://www.sogou.com Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256
+https://www.skyrock.com Cipersuite used: TLS_RSA_WITH_AES_128_GCM_SHA256
+https://www.mozilla.com Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.free.fr Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.tinypic.com Error: java.net.ConnectException: Connection refused: connect
+https://www.godaddy.com Cipersuite used: TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA
+https://www.mywebsearch.com Error: java.net.UnknownHostException: www.mywebsearch.com
+https://www.tianya.cn Error: java.net.ConnectException: Connection timed out: connect
+https://www.depositfiles.com Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256
+https://www.partypoker.com Cipersuite used: SSL_DHE_RSA_WITH_3DES_EDE_CBC_SHA
+https://www.bestbuy.com Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.bestbuy.com found.
+https://www.hulu.com Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.hulu.com found.
+https://www.terra.com.br Cipersuite used: TLS_RSA_WITH_AES_128_CBC_SHA256
+https://www.mininova.org Error: java.net.ConnectException: Connection refused: connect
+https://www.netlog.com Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.netlog.com found.
+https://www.ehow.com Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.megaclick.com Error: java.net.UnknownHostException: www.megaclick.com
+https://www.reference.com Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.reference.com found.
+https://www.target.com Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.target.com found.
+https://www.torrentz.com Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.hao123.com Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA
+https://www.metacafe.com Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.sourceforge.net Cipersuite used: TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA
+https://www.indiatimes.com Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.indiatimes.com found.
+https://www.2ch.net Cipersuite used: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+https://www.wikimedia.org Cipersuite used: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+https://www.orange.fr Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.huffingtonpost.com Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.huffingtonpost.com found.
+https://www.alibaba.com Error: java.net.ConnectException: Connection timed out: connect
+https://www.youjizz.com Cipersuite used: SSL_DHE_RSA_WITH_3DES_EDE_CBC_SHA
+https://www.netflix.com Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.comcast.net Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.comcast.net found.
+https://www.goo.ne.jp Error: java.net.ConnectException: Connection timed out: connect
+https://www.isohunt.com Error: java.net.UnknownHostException: www.isohunt.com
+https://www.zedo.com Error: java.net.UnknownHostException: www.zedo.com
+https://www.onet.pl Cipersuite used: TLS_ECDHE_RSA_WITH_RC4_128_SHA
+https://www.twitpic.com Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.cricinfo.com Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.cricinfo.com found.
+https://www.imagevenue.com Error: java.net.ConnectException: Connection refused: connect
+https://www.vk.com Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.cnzz.com Error: java.net.ConnectException: Connection timed out: connect
+https://www.51.la Error: java.net.ConnectException: Connection refused: connect
+https://www.nifty.com Cipersuite used: SSL_RSA_WITH_RC4_128_SHA
+https://www.gmx.net Cipersuite used: TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA
+https://www.awempire.com Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.gamespot.com Cipersuite used: SSL_RSA_WITH_RC4_128_MD5
+https://www.typepad.com Cipersuite used: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+https://www.hp.com Cipersuite used: SSL_RSA_WITH_RC4_128_SHA
+https://www.xtendmedia.com Error: java.net.ConnectException: Connection timed out: connect
+https://www.xnxx.com Error: java.net.ConnectException: Connection timed out: connect
+https://www.web.de Cipersuite used: TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA
+https://www.download.com Error: java.net.ConnectException: Connection timed out: connect
+https://www.bankofamerica.com Cipersuite used: TLS_RSA_WITH_AES_128_CBC_SHA
+https://www.wretch.cc Error: java.net.ConnectException: Connection timed out: connect
+https://www.nicovideo.jp Error: java.net.ConnectException: Connection timed out: connect
+https://www.allegro.pl Error: java.net.ConnectException: Connection refused: connect
+https://www.badoo.com Cipersuite used: TLS_DHE_RSA_WITH_AES_128_CBC_SHA
+https://www.archive.org Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.blogfa.com Cipersuite used: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+https://www.digitalpoint.com Cipersuite used: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+https://www.56.com Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No name matching www.56.com found
+https://www.tumblr.com Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.126.com Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.126.com found.
+https://www.aweber.com Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256
+https://www.ku6.com Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.ku6.com found.
+https://www.bit.ly Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.xinhuanet.com Error: java.net.ConnectException: Connection refused: connect
+https://www.angege.com Error: java.net.ConnectException: Connection refused: connect
+https://www.gameztar.com Error: java.net.ConnectException: Connection timed out: connect
+https://www.ynet.com Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No name matching www.ynet.com found
+https://www.keezmovies.com Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.keezmovies.com found.
+https://www.naver.com Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.naver.com found.
+https://www.hatena.ne.jp Cipersuite used: TLS_RSA_WITH_AES_128_CBC_SHA
+https://www.domaintools.com Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.tribalfusion.com Error: java.net.UnknownHostException: www.tribalfusion.com
+https://www.guardian.co.uk Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.guardian.co.uk found.
+https://www.douban.com Error: java.net.ConnectException: Connection timed out: connect
+https://www.maktoob.com Error: java.net.ConnectException: Connection timed out: connect
+https://www.foxnews.com Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.foxnews.com found.
+https://www.avg.com Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.tom.com Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No name matching www.tom.com found
+https://www.statcounter.com Error: java.net.UnknownHostException: www.statcounter.com
+https://www.wp.pl Error: java.net.ConnectException: Connection refused: connect
+https://www.wikia.com Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.bild.de Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.bild.de found.
+https://www.ign.com Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.ign.com found.
+https://www.pconline.com.cn Error: java.net.ConnectException: Connection refused: connect
+https://www.ameba.jp Cipersuite used: SSL_RSA_WITH_RC4_128_SHA
+https://www.metroflog.com Error: java.net.ConnectException: Connection timed out: connect
+https://www.verycd.com Cipersuite used: TLS_RSA_WITH_AES_128_CBC_SHA256
+https://www.pogo.com Cipersuite used: SSL_RSA_WITH_RC4_128_MD5
+https://www.friendster.com Error: java.net.ConnectException: Connection timed out: connect
+https://www.scribd.com Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.istockphoto.com Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.streamate.com Error: java.net.UnknownHostException: www.streamate.com
+https://www.ig.com.br Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No name matching www.ig.com.br found
+https://www.mop.com Error: java.net.ConnectException: Connection timed out: connect
+https://www.hyves.nl Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.hyves.nl found.
+https://www.alipay.com Cipersuite used: TLS_RSA_WITH_AES_128_CBC_SHA
+https://www.dailymail.co.uk Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.dailymail.co.uk found.
+https://www.stumbleupon.com Cipersuite used: TLS_RSA_WITH_AES_128_CBC_SHA
+https://www.newegg.com Cipersuite used: SSL_RSA_WITH_3DES_EDE_CBC_SHA
+https://www.eastmoney.com Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No name matching www.eastmoney.com found
+https://www.mybrowserbar.com Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.mybrowserbar.com found.
+https://www.kooora.com Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.kooora.com found.
+https://www.ucoz.ru Error: java.net.ConnectException: Connection refused: connect
+https://www.xing.com Cipersuite used: TLS_RSA_WITH_AES_128_CBC_SHA256
+https://www.narod.ru Error: java.net.ConnectException: Connection timed out: connect
+https://www.torrents.ru Error: java.net.UnknownHostException: www.torrents.ru
+https://www.zol.com.cn Error: java.net.ConnectException: Connection timed out: connect
+https://www.squidoo.com Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.squidoo.com found.
+https://www.libero.it Error: java.net.ConnectException: Connection timed out: connect
+https://www.leo.org Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.seznam.cz Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.ups.com Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.farmville.com Error: javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+https://www.fotolog.net Cipersuite used: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+https://www.telegraph.co.uk Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.telegraph.co.uk found.
+https://www.infoseek.co.jp Cipersuite used: TLS_RSA_WITH_AES_128_CBC_SHA
+https://www.yourfilehost.com Error: java.net.ConnectException: Connection refused: connect
+https://www.secureserver.net Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256
+https://www.youdao.com Error: javax.net.ssl.SSLHandshakeException: Received fatal alert: handshake_failure
+https://www.homeway.com.cn Error: java.net.ConnectException: Connection refused: connect
+https://www.usps.com Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.nba.com Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.nba.com found.
+https://www.hubpages.com Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.hubpages.com found.
+https://www.megaporn.com Error: java.net.UnknownHostException: www.megaporn.com
+https://www.leboncoin.fr Error: javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+https://www.biglobe.ne.jp Error: java.net.ConnectException: Connection timed out: connect
+https://www.passport.net Error: java.net.ConnectException: Connection refused: connect
+https://www.vnexpress.net Error: java.net.ConnectException: Connection timed out: connect
+https://www.reuters.com Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.reuters.com found.
+https://www.veoh.com Cipersuite used: TLS_RSA_WITH_AES_128_CBC_SHA
+https://www.nfl.com Cipersuite used: TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA
+https://www.adultadworld.com Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No name matching www.adultadworld.com found
+https://www.people.com.cn Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.people.com.cn found.
+https://www.in.com Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.in.com found.
+https://www.ebay.it Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.58.com Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No name matching www.58.com found
+https://www.studiverzeichnis.com Error: java.net.ConnectException: Connection timed out: connect
+https://www.alimama.com Error: javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+https://www.skype.com Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256
+https://www.wsj.com Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.wsj.com found.
+https://www.liveinternet.ru Cipersuite used: TLS_RSA_WITH_AES_128_CBC_SHA
+https://www.seesaa.net Error: javax.net.ssl.SSLProtocolException: handshake alert:  unrecognized_name
+https://www.csdn.net Error: java.net.ConnectException: Connection timed out: connect
+https://www.justin.tv Error: java.net.ConnectException: Connection refused: connect
+https://www.sakura.ne.jp Error: java.net.ConnectException: Connection timed out: connect
+https://www.thefreedictionary.com Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256
+https://www.empflix.com Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.spankwire.com Error: java.net.ConnectException: Connection timed out: connect
+https://www.shufuni.com Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.shufuni.com found.
+https://www.last.fm Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.softpedia.com Error: java.net.ConnectException: Connection refused: connect
+https://www.chase.com Cipersuite used: TLS_RSA_WITH_AES_128_GCM_SHA256
+https://www.opendns.com Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.foxsports.com Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.foxsports.com found.
+https://www.uploading.com Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.uploading.com found.
+https://www.geocities.jp Error: java.net.ConnectException: Connection timed out: connect
+https://www.nowdownloadall.com Error: java.net.SocketException: Connection reset
+https://www.tnaflix.com Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.verizon.net Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.t-online.de Cipersuite used: TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA
+https://www.multiply.com Error: java.net.ConnectException: Connection timed out: connect
+https://www.chip.de Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.chip.de found.
+https://www.gamefaqs.com Cipersuite used: SSL_RSA_WITH_RC4_128_MD5
+https://www.addthis.com Cipersuite used: SSL_RSA_WITH_RC4_128_SHA
+https://www.blogcatalog.com Error: java.net.UnknownHostException: www.blogcatalog.com
+https://www.ziddu.com Cipersuite used: TLS_RSA_WITH_AES_128_CBC_SHA
+https://www.mapquest.com Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.daum.net Error: java.net.ConnectException: Connection refused: connect
+https://www.commentcamarche.net Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.commentcamarche.net found.
+https://www.travian.ae Error: javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+https://www.mozilla.org Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.ganji.com Error: java.net.ConnectException: Connection refused: connect
+https://www.amazonaws.com Error: java.net.ConnectException: Connection refused: connect
+https://www.gougou.com Error: java.net.ConnectException: Connection timed out: connect
+https://www.focus.cn Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.focus.cn found.
+https://www.att.com Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.rr.com Error: javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+https://www.wordpress.org Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.theplanet.com Error: javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path validation failed: java.security.cert.CertPathValidatorException: timestamp check failed
+https://www.imagebam.com Error: java.net.ConnectException: Connection refused: connect
+https://www.ebay.fr Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.miniclip.com Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.livedoor.biz Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.livedoor.biz found.
+https://www.letitbit.net Cipersuite used: TLS_RSA_WITH_AES_128_CBC_SHA
+https://www.hottiestar.com Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.hottiestar.com found.
+https://www.cbssports.com Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.cbssports.com found.
+https://www.etsy.com Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.brothersoft.com Error: java.net.ConnectException: Connection timed out: connect
+https://www.zing.vn Cipersuite used: TLS_DHE_RSA_WITH_AES_128_CBC_SHA
+https://www.plentyoffish.com Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.tuenti.com Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.onemanga.com Error: java.net.UnknownHostException: www.onemanga.com
+https://www.constantcontact.com Cipersuite used: TLS_RSA_WITH_AES_128_CBC_SHA
+https://www.zshare.net Error: java.net.ConnectException: Connection timed out: connect
+https://www.marca.com Error: java.net.ConnectException: Connection timed out: connect
+https://www.virgilio.it Error: java.net.ConnectException: Connection refused: connect
+https://www.yelp.com Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.118114.cn Error: java.net.ConnectException: Connection refused: connect
+https://www.btjunkie.org Error: javax.net.ssl.SSLException: Unrecognized SSL message, plaintext connection?
+https://www.reddit.com Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.360buy.com Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.360buy.com found.
+https://www.ikea.com Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.ikea.com found.
+https://www.hurriyet.com.tr Cipersuite used: SSL_RSA_WITH_RC4_128_MD5
+https://www.icq.com Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256
+https://www.paipai.com Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.paipai.com found.
+https://www.wer-kennt-wen.de Error: java.net.ConnectException: Connection refused: connect
+https://www.icio.us Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.icio.us found.
+https://www.clickbank.com Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256
+https://www.kaskus.us Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256
+https://www.cj.com Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.dmm.co.jp Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.vimeo.com Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.ebay.com.au Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.techcrunch.com Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.techcrunch.com found.
+https://www.over-blog.com Cipersuite used: TLS_RSA_WITH_AES_128_CBC_SHA
+https://www.tmz.com Cipersuite used: TLS_RSA_WITH_AES_128_CBC_SHA256
+https://www.pcpop.com Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.pcpop.com found.
+https://www.php.net Error: java.net.ConnectException: Connection refused: connect
+https://www.bigpoint.com Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.bigpoint.com found.
+https://www.softonic.com Error: java.net.ConnectException: Connection timed out: connect
+https://www.zimbio.com Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.ibm.com Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.washingtonpost.com Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.uimserv.net Error: java.net.UnknownHostException: www.uimserv.net
+https://www.macys.com Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.cctv.com Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.cctv.com found.
+https://www.msn.ca Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.msn.ca found.
+https://www.51job.com Cipersuite used: SSL_RSA_WITH_RC4_128_MD5
+https://www.exblog.jp Cipersuite used: TLS_RSA_WITH_AES_128_CBC_SHA256
+https://www.ocn.ne.jp Error: java.net.ConnectException: Connection timed out: connect
+https://www.pandora.com Cipersuite used: TLS_RSA_WITH_AES_128_CBC_SHA
+https://www.w3schools.com Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.w3schools.com found.
+https://www.tripadvisor.com Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.fedex.com Cipersuite used: TLS_RSA_WITH_AES_128_CBC_SHA
+https://www.anonym.to Error: java.net.ConnectException: Connection refused: connect
+https://www.babylon.com Error: java.net.ConnectException: Connection timed out: connect
+https://www.xe.com Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.repubblica.it Error: java.net.ConnectException: Connection timed out: connect
+https://www.kakaku.com Error: java.net.ConnectException: Connection timed out: connect
+https://www.slideshare.net Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.china.com Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.china.com found.
+https://www.chinamobile.com Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.chinamobile.com found.
+https://www.toysrus.com Cipersuite used: TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA
+https://www.meinvz.net Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.meinvz.net found.
+https://www.latimes.com Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.latimes.com found.
+https://www.dantri.com.vn Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.dantri.com.vn found.
+https://www.ebuddy.com Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.ebuddy.com found.
+https://www.pchome.net Error: java.net.ConnectException: Connection timed out: connect
+https://www.wordreference.com Error: java.net.ConnectException: Connection timed out: connect
+https://www.altervista.org Error: javax.net.ssl.SSLException: Received fatal alert: internal_error
+https://www.advmaker.ru Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.advmaker.ru found.
+https://www.comcast.com Cipersuite used: SSL_RSA_WITH_RC4_128_SHA
+https://www.marketgid.com Cipersuite used: TLS_DHE_RSA_WITH_AES_128_CBC_SHA
+https://www.yesky.com Error: java.net.ConnectException: Connection refused: connect
+https://www.cocolog-nifty.com Cipersuite used: TLS_DHE_RSA_WITH_AES_128_CBC_SHA
+https://www.bebo.com Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.slickdeals.net Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.overstock.com Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256
+https://www.milliyet.com.tr Error: java.net.ConnectException: Connection timed out: connect
+https://www.naukri.com Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.xici.net Error: java.net.ConnectException: Connection timed out: connect
+https://www.autohome.com.cn Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No name matching www.autohome.com.cn found
+https://www.hardsextube.com Cipersuite used: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+https://www.hostgator.com Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256
+https://www.jugem.jp Error: java.net.ConnectException: Connection timed out: connect
+https://www.fox.com Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.fox.com found.
+https://www.nih.gov Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.1133.cc Error: java.net.ConnectException: Connection timed out: connect
+https://www.51.com Error: java.net.ConnectException: Connection refused: connect
+https://www.koubei.com Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.koubei.com found.
+https://www.webs.com Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.webs.com found.
+https://www.mashable.com Error: java.net.ConnectException: Connection refused: connect
+https://www.atwiki.jp Error: java.net.ConnectException: Connection timed out: connect
+https://www.mercadolivre.com.br Cipersuite used: TLS_RSA_WITH_AES_128_CBC_SHA256
+https://www.4tube.com Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.engadget.com Cipersuite used: TLS_RSA_WITH_AES_128_CBC_SHA
+https://www.match.com Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.match.com found.
+https://www.articlesbase.com Cipersuite used: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+https://www.myegy.com Cipersuite used: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+https://www.disney.go.com Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.disney.go.com found.
+https://www.qidian.com Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No name matching www.qidian.com found
+https://www.joomla.org Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.informer.com Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256
+https://www.chinanews.com.cn Error: java.net.ConnectException: Connection refused: connect
+https://www.sears.com Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.z5x.net Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No name matching www.z5x.net found
+https://www.sendspace.com Error: javax.net.ssl.SSLHandshakeException: Received fatal alert: handshake_failure
+https://www.mybestyouxi.cn Error: java.net.UnknownHostException: www.mybestyouxi.cn
+https://www.verizonwireless.com Cipersuite used: TLS_RSA_WITH_AES_128_CBC_SHA
+https://www.amazon.cn Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.sweetim.com Error: java.net.ConnectException: Connection refused: connect
+https://www.watch-movies-online.tv Error: java.net.UnknownHostException: www.watch-movies-online.tv
+https://www.tattoodle.com Error: java.net.ConnectException: Connection refused: connect
+https://www.break.com Error: javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+https://www.wareseeker.com Error: javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+https://www.expedia.com Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.irctc.co.in Cipersuite used: SSL_RSA_WITH_RC4_128_MD5
+https://www.torrentreactor.net Cipersuite used: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+https://www.fastclick.com Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No name matching www.fastclick.com found
+https://www.meebo.com Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.meebo.com found.
+https://www.it168.com Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.it168.com found.
+https://www.admagnet.net Error: java.net.ConnectException: Connection refused: connect
+https://www.nextag.com Cipersuite used: SSL_RSA_WITH_RC4_128_SHA
+https://www.salesforce.com Cipersuite used: TLS_RSA_WITH_AES_128_CBC_SHA256
+https://www.iciba.com Error: java.net.SocketException: Connection reset
+https://www.examiner.com Error: javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+https://www.excite.co.jp Cipersuite used: TLS_RSA_WITH_AES_128_CBC_SHA256
+https://www.brazzers.com Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.brazzers.com found.
+https://www.sfr.fr Cipersuite used: TLS_RSA_WITH_AES_128_CBC_SHA256
+https://www.vmn.net Error: java.net.ConnectException: Connection refused: connect
+https://www.ya.ru Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.easy-share.com Error: java.net.UnknownHostException: www.easy-share.com
+https://www.googleusercontent.com Cipersuite used: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+https://www.mihanblog.com Error: java.net.ConnectException: Connection timed out: connect
+https://www.detik.com Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256
+https://www.schuelervz.net Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.schuelervz.net found.
+https://www.bloomberg.com Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.usatoday.com Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.usatoday.com found.
+https://www.timesonline.co.uk Error: java.net.ConnectException: Connection timed out: connect
+https://www.news.com.au Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.news.com.au found.
+https://www.so-net.ne.jp Cipersuite used: TLS_RSA_WITH_AES_128_CBC_SHA
+https://www.hc360.com Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No name matching www.hc360.com found
+https://www.duowan.com Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No name matching www.duowan.com found
+https://www.corriere.it Error: java.net.ConnectException: Connection timed out: connect
+https://www.time.com Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.thesun.co.uk Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.thesun.co.uk found.
+https://www.dangdang.com Error: java.net.ConnectException: Connection timed out: connect
+https://www.rapidlibrary.com Error: java.net.SocketException: Connection reset
+https://www.jeuxvideo.com Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.hudong.com Error: java.net.ConnectException: Connection timed out: connect
+https://www.mynet.com Cipersuite used: SSL_RSA_WITH_RC4_128_MD5
+https://www.freelotto.com Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.admin5.com Error: java.net.ConnectException: Connection timed out: connect
+https://www.livescore.com Error: java.net.ConnectException: Connection timed out: connect
+https://www.metrolyrics.com Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.metrolyrics.com found.
+https://www.tripod.com Error: java.net.ConnectException: Connection refused: connect
+https://www.tradedoubler.com Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.tradedoubler.com found.
+https://www.mercadolibre.com.mx Cipersuite used: TLS_RSA_WITH_AES_128_CBC_SHA256
+https://www.warez-bb.org Error: javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+https://www.careerbuilder.com Cipersuite used: TLS_RSA_WITH_AES_128_CBC_SHA256
+https://www.dianping.com Cipersuite used: SSL_RSA_WITH_RC4_128_SHA
+https://www.linternaute.com Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.yimg.com Error: java.net.UnknownHostException: www.yimg.com
+https://www.elmundo.es Error: java.net.ConnectException: Connection timed out: connect
+https://www.fbcdn.net Cipersuite used: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+https://www.jcpenney.com Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.gap.com Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.gap.com found.
+https://www.slutload.com Error: java.net.ConnectException: Connection timed out: connect
+https://www.alice.it Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.alice.it found.
+https://www.stackoverflow.com Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.seriesyonkis.com Cipersuite used: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+https://www.fotolia.com Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.freeones.com Error: javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+https://www.xtube.com Cipersuite used: TLS_RSA_WITH_AES_128_CBC_SHA
+https://www.beemp3.com Error: java.net.ConnectException: Connection timed out: connect
+https://www.radikal.ru Error: java.net.ConnectException: Connection timed out: connect
+https://www.blogbus.com Error: java.net.ConnectException: Connection timed out: connect
+https://www.huanqiu.com Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.huanqiu.com found.
+https://www.shopping.com Error: javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+https://www.goal.com Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.goal.com found.
+https://www.shoplocal.com Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.shoplocal.com found.
+https://www.people.com Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.people.com found.
+https://www.keyrun.cn Error: java.net.ConnectException: Connection refused: connect
+https://www.harrenmedianetwork.com Error: javax.net.ssl.SSLException: Received fatal alert: internal_error
+https://www.4399.com Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No name matching www.4399.com found
+https://www.imgur.com Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.symantec.com Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.musica.com Error: java.net.ConnectException: Connection timed out: connect
+https://www.besttubeclips.com Error: java.net.ConnectException: Connection timed out: connect
+https://www.filefactory.com Cipersuite used: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+https://www.vente-privee.com Error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching www.vente-privee.com found.
+https://www.ggpht.com Error: java.net.UnknownHostException: www.ggpht.com
+https://www.xbox.com Cipersuite used: SSL_RSA_WITH_RC4_128_SHA
+https://www.stc.com.sa Cipersuite used: TLS_RSA_WITH_AES_128_GCM_SHA256
+https://www.interia.pl Error: java.net.ConnectException: Connection timed out: connect
+https://www.39.net Error: java.net.ConnectException: Connection timed out: connect
+https://www.linezing.com Error: java.net.ConnectException: Connection timed out: connect
+https://www.associatedcontent.com Error: java.net.ConnectException: Connection timed out: connect
+https://www.y8.com Error: java.net.ConnectException: Connection timed out: connect
+https://www.dtiblog.com Error: java.net.ConnectException: Connection timed out: connect
+https://www.incredimail.com Error: java.net.ConnectException: Connection timed out: connect
+https://www.sanook.com Error: java.net.ConnectException: Connection timed out: connect
+https://www.zhaopin.com Error: java.net.ConnectException: Connection timed out: connect
+https://www.yomiuri.co.jp Error: java.net.ConnectException: Connection timed out: connect
