@@ -20,7 +20,6 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.net.URL;
-import java.util.LinkedList;
 
 // Imports for managing results
 import java.util.Queue;
@@ -50,6 +49,10 @@ public class SWP2CrawlerTest {
     private static Queue<URL> urlWorkSet = new ConcurrentLinkedQueue<>();
     private static SWP2CrawlerTest THEINSTANCE;
     private static Worker[] threadList = new Worker[10];
+    
+    private static final int URLLIMIT = 500; /* Limit Crawler to 500 URLs
+                                         To unlimit see to line 107 and
+                                         replace for loop with a whileloop*/
 
     // ExecutorService not yet used.
     private static ExecutorService doWhipping = Executors.newFixedThreadPool(10);
@@ -66,23 +69,19 @@ public class SWP2CrawlerTest {
 
         System.out.println("Starting crawling urls.");
 
-//        for (int i = 0; i < threadList.length; i++) {
-//            threadList[i] = new Worker();
-//            threadList[i].start();
-//
-//        }
-//        while (!urlWorkSet.isEmpty()) {
-//            for (int i = 0; i < threadList.length;i++) {
-//                if(!threadList[i].isAlive() || threadList[i]==null){
-//                    threadList[i] = new Worker();
-//                    threadList[i].start();
-//                }
-//       
-//            }
-//        }
-        
-      startCrawling();
+        for (int i = 0; i < threadList.length; i++) {
+            threadList[i] = new Worker();
+            threadList[i].start();
 
+        }
+        int runningThreads = threadList.length;
+        while (!urlWorkSet.isEmpty()) {
+            // Waiting for threads to empty urlWorkSet
+        }
+      // Call for threaded crawling using executor service  
+      //startCrawling();
+
+        
         System.out.println("Finished crawling\nWriting results to file\n.");
 
         writeResult();
@@ -93,6 +92,10 @@ public class SWP2CrawlerTest {
 
     } // end main
 
+    /**
+     * Method for reading textfile with urls.
+     * Not thread safe
+     */
     private static void normalizeURLS() {
         String stuffJustRead;
         FileReader fileIn = null;
@@ -100,8 +103,8 @@ public class SWP2CrawlerTest {
         try {
             fileIn = new FileReader(URLFILE);
             inPut = new BufferedReader(fileIn);
-            // Limited to 500 URLS
-            for (int limiter = 0; limiter < 500; limiter++) {
+            // Limited to URLLIMIT
+            for (int limiter = 0; limiter < URLLIMIT; limiter++) {
                 //while (inPut.ready()) {
 
                 stuffJustRead = inPut.readLine();
@@ -125,7 +128,10 @@ public class SWP2CrawlerTest {
         }
 
     }
-
+    /**
+     * This method will crawl trough any url in urlWorkSet
+     * Java executor service with a fixed threadpool of 10 threads is used
+     */
     private static void startCrawling() {
         while (!urlWorkSet.isEmpty()) {
             doWhipping.submit(new Runnable() {
@@ -156,6 +162,10 @@ public class SWP2CrawlerTest {
         while (!doWhipping.isTerminated());
     }
 
+    /**
+     * Method for writing resultqueue to a text file
+     * Not thread safe
+     */
     private static void writeResult() {
         FileWriter fileOut = null;
         BufferedWriter output = null;
@@ -180,7 +190,10 @@ public class SWP2CrawlerTest {
             }
         }
     }
-
+    /**
+     * Method for getting the singleton object of SWP2CrawlerTest
+     * @return a singleton object of SWP2CrawlerTest
+     */
     public static SWP2CrawlerTest getInstance() {
         if (THEINSTANCE == null) {
             THEINSTANCE = new SWP2CrawlerTest();
@@ -188,10 +201,19 @@ public class SWP2CrawlerTest {
         return THEINSTANCE;
     }
 
+    /**
+     * Method for getting a URL from urlWorkSet
+     * Thread safe
+     * @return a URL object
+     */
     URL getURL() {
         return urlWorkSet.poll();
     }
 
+    /**
+     * Method to add results to the result queue
+     * @param res The resultobjet to be added to the queue
+     */
     void addResult(Result res) {
         this.results.add(res);
     }

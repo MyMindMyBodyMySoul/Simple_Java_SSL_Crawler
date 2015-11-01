@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package swp2.crawlertest;
 
 import java.io.IOException;
@@ -25,13 +20,12 @@ public class Worker extends Thread {
 
     @Override
     public void run() {
-        try {
-            while (true) {
-
+        while (true) {
+            try {
                 urlToTest = mainClass.getURL();
-                if (urlToTest == null) {
-                    System.out.println("Thread Nummer "
-                            +Thread.currentThread().getId()+" ist gestorben,");
+                if (urlToTest == null & !mainClass.areThereMoreUrls()) {
+                    System.out.println("Thread number "
+                            + Thread.currentThread().getId() + " has joined\n");
                     this.join();
                 }
                 con = (HttpsURLConnection) urlToTest.openConnection();
@@ -42,12 +36,16 @@ public class Worker extends Thread {
                 mainClass.addResult(new Result(con.getURL().toString(),
                         "Cipersuite used: " + con.getCipherSuite()));
                 con.disconnect();
+
+            } catch (IOException e) {
+                mainClass.addResult(new Result(con.getURL().toString(),
+                        "Error: " + e.toString()));
+                continue;
+            } catch (InterruptedException iE) {
+                iE.printStackTrace();
+            } catch (Throwable t) {
+                System.out.println(t.toString());
             }
-        } catch (IOException e) {
-            mainClass.addResult(new Result(con.getURL().toString(),
-                    "Error: " + e.toString()));
-        } catch (InterruptedException iE) {
-            iE.printStackTrace();
         }
     }
 
