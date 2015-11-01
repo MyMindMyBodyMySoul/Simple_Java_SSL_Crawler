@@ -25,7 +25,7 @@ public class Worker extends Thread {
                 urlToTest = mainClass.getURL();
                 if (urlToTest == null & !mainClass.areThereMoreUrls()) {
                     System.out.println("Thread number "
-                            + Thread.currentThread().getId() + " has joined\n");
+                            + Thread.currentThread().getId() + " has joined");
                     this.join();
                 }
                 con = (HttpsURLConnection) urlToTest.openConnection();

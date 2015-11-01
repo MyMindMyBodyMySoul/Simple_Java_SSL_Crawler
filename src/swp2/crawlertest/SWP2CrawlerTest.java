@@ -49,10 +49,10 @@ public class SWP2CrawlerTest {
     private static Queue<URL> urlWorkSet = new ConcurrentLinkedQueue<>();
     private static SWP2CrawlerTest THEINSTANCE;
     private static Worker[] threadList = new Worker[10];
-    
-    private static final int URLLIMIT = 500; /* Limit Crawler to 500 URLs
-                                         To unlimit see to line 107 and
-                                         replace for loop with a whileloop*/
+
+    private static final int URLLIMIT = 100; /* Limit Crawler to 500 URLs
+     To unlimit see to the method normalizeURLS
+     and replace for loop with a whileloop there*/
 
     // ExecutorService not yet used.
     private static ExecutorService doWhipping = Executors.newFixedThreadPool(10);
@@ -74,27 +74,25 @@ public class SWP2CrawlerTest {
             threadList[i].start();
 
         }
-        int runningThreads = threadList.length;
-        while (!urlWorkSet.isEmpty()) {
-            // Waiting for threads to empty urlWorkSet
+        while(!urlWorkSet.isEmpty()){
+            // Wait until threads have emptied urlWorkSet
         }
-      // Call for threaded crawling using executor service  
-      //startCrawling();
-
         
-        System.out.println("Finished crawling\nWriting results to file\n.");
+        // Call for threaded crawling using executor service  
+        //startCrawling();
+
+        System.out.println("Finished crawling\nWriting results to file.");
 
         writeResult();
 
         System.out.println("Finished writing. Cleaning up");
-        
+
         System.exit(0);
 
     } // end main
 
     /**
-     * Method for reading textfile with urls.
-     * Not thread safe
+     * Method for reading textfile with urls. Not thread safe
      */
     private static void normalizeURLS() {
         String stuffJustRead;
@@ -128,9 +126,10 @@ public class SWP2CrawlerTest {
         }
 
     }
+
     /**
-     * This method will crawl trough any url in urlWorkSet
-     * Java executor service with a fixed threadpool of 10 threads is used
+     * This method will crawl trough any url in urlWorkSet Java executor service
+     * with a fixed threadpool of 10 threads is used
      */
     private static void startCrawling() {
         while (!urlWorkSet.isEmpty()) {
@@ -163,8 +162,7 @@ public class SWP2CrawlerTest {
     }
 
     /**
-     * Method for writing resultqueue to a text file
-     * Not thread safe
+     * Method for writing resultqueue to a text file Not thread safe
      */
     private static void writeResult() {
         FileWriter fileOut = null;
@@ -190,8 +188,10 @@ public class SWP2CrawlerTest {
             }
         }
     }
+
     /**
      * Method for getting the singleton object of SWP2CrawlerTest
+     *
      * @return a singleton object of SWP2CrawlerTest
      */
     public static SWP2CrawlerTest getInstance() {
@@ -202,8 +202,8 @@ public class SWP2CrawlerTest {
     }
 
     /**
-     * Method for getting a URL from urlWorkSet
-     * Thread safe
+     * Method for getting a URL from urlWorkSet Thread safe
+     *
      * @return a URL object
      */
     URL getURL() {
@@ -212,10 +212,11 @@ public class SWP2CrawlerTest {
 
     /**
      * Method to add results to the result queue
+     *
      * @param res The resultobjet to be added to the queue
      */
     void addResult(Result res) {
-        this.results.add(res);
+        SWP2CrawlerTest.results.add(res);
     }
 
     /**
